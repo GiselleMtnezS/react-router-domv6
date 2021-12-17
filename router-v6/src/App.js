@@ -20,11 +20,11 @@ function App() {
 
   return (
     <div className="App">
-      <nav>
-          <Link to="/">Home</Link>
-          <Link to="/protected-one">Protected Route 1</Link>
-          <Link to="/protected-two">Protected Route 2</Link>
-          <Link to="/protected-three">Protected Route 3</Link>
+      <nav >
+          <Link className='nav-link' to="/">Home</Link>
+          <Link className='nav-link' to="/protected-one">Protected Route 1</Link>
+          <Link className='nav-link' to="/protected-two">Protected Route 2</Link>
+          <Link className='nav-link' to="/protected-three">Protected Route 3</Link>
       </nav>
 
       <Routes>

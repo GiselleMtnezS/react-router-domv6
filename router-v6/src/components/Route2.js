@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom"
 function Route2 () {
 
 
@@ -5,7 +6,8 @@ function Route2 () {
       <div className="Route2 ">
   
           <h1>Route2  </h1>
-  
+          <Link to="/"><button>Home</button></Link>
+
   
       </div>
     );
